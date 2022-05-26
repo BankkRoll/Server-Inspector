@@ -41,7 +41,7 @@ async def on_message(message):
         return
 
     
-    if "<@977774758647189506>" in message.content:
+    if "<@bot_user_id>" in message.content:
         welcome = f"""**__👋 I'm Server Inspector!__**
       
 I'll help check your server's basic security and inform you without making any changes.
