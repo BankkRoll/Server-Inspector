@@ -6,8 +6,8 @@
 
 
 **Ex.** Quick role/permissions audit reports-
-![ScreenShot](https://github.com/BankkRoll/Server-Inspector/blob/main/server%20inspector%201.png?raw=true)
-![ScreenShot](https://github.com/BankkRoll/Server-Inspector/blob/main/server%20inspector%202.png?raw=true)
+![ScreenShot](https://github.com/BankkRoll/Server.Inspector/blob/main/server%20inspector%202.png?raw=true)
+![ScreenShot](https://github.com/BankkRoll/Server.Inspector/blob/main/server%20inspector%201.png?raw=true)
 
 **Bot can be invited here -** http://serverinspector.xyz or http://invite.serverinspector.xyz
 ____________________________________________________________________________
