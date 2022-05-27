@@ -1,4 +1,4 @@
-* **👋 Thanks for checking out Server Inspector!**
+* **👋 Thanks for checking out `Server Inspector`!**
 
 * **🤖Simple bot to check dangerous server permissions on all roles as well as check server settings and roles that are mentionable.**
 
@@ -6,6 +6,7 @@
 
 
 **Ex.** Quick role/permissions audit reports-
+
 ![ScreenShot](https://github.com/BankkRoll/Server.Inspector/blob/main/server%20inspector%202.png?raw=true)
 ![ScreenShot](https://github.com/BankkRoll/Server.Inspector/blob/main/server%20inspector%201.png?raw=true)
 
