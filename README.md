@@ -1,3 +1,5 @@
+# Server Inspector
+
 * **👋 Thanks for checking out `Server Inspector`!**
 
 * **🤖Simple bot to check dangerous server permissions on all roles as well as check server settings and roles that are mentionable.**
