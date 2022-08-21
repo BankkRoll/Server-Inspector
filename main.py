@@ -1,3 +1,13 @@
+#   /$$                           /$$       /$$                           /$$ /$$                             /$$     /$$      
+#  | $$                          | $$      | $$                          | $$| $$                            | $$    | $$      
+#  | $$$$$$$   /$$$$$$  /$$$$$$$ | $$   /$$| $$   /$$  /$$$$$$   /$$$$$$ | $$| $$                  /$$$$$$  /$$$$$$  | $$$$$$$ 
+#  | $$__  $$ |____  $$| $$__  $$| $$  /$$/| $$  /$$/ /$$__  $$ /$$__  $$| $$| $$                 /$$__  $$|_  $$_/  | $$__  $$
+#  | $$  \ $$  /$$$$$$$| $$  \ $$| $$$$$$/ | $$$$$$/ | $$  \__/| $$  \ $$| $$| $$                | $$$$$$$$  | $$    | $$  \ $$
+#  | $$  | $$ /$$__  $$| $$  | $$| $$_  $$ | $$_  $$ | $$      | $$  | $$| $$| $$                | $$_____/  | $$ /$$| $$  | $$
+#  | $$$$$$$/|  $$$$$$$| $$  | $$| $$ \  $$| $$ \  $$| $$      |  $$$$$$/| $$| $$       /$$      |  $$$$$$$  |  $$$$/| $$  | $$
+#  |_______/  \_______/|__/  |__/|__/  \__/|__/  \__/|__/       \______/ |__/|__/      |__/       \_______/   \___/  |__/  |__/
+
+
 import discord
 import os
 
@@ -21,9 +31,16 @@ def split(s):
   
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Game("Scanning  " + str(len(client.guilds)) + " servers!"))
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="permissions in " + str(len(client.guilds)) + " servers!"))
     print(f'{client.user} has connected to Discord!')
-  
+    print("A list of all servers where the bot is on:")
+        # List of all Servers the Bot is
+    insguilds = 0
+    for guild in client.guilds:
+      print("%s - %s" % (guild.name, guild.id))
+      insguilds = insguilds + 1
+      print("Guilds: " + str(insguilds))
+
 
 @client.event
 async def on_mention(channel):
