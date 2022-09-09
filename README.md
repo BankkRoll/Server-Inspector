@@ -1,5 +1,7 @@
 # Server Inspector
 
+## This repo is no longer updated, i will not be maintaining or adding to this. You may need changes to for this code to work
+
 * **👋 Thanks for checking out `Server Inspector`!**
 
 * **🤖Simple bot to check dangerous server permissions on all roles as well as check server settings and roles that are mentionable.**
