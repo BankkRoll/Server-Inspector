@@ -14,7 +14,7 @@
 ![ScreenShot](https://github.com/BankkRoll/Server.Inspector/blob/main/server%20inspector%202.png?raw=true)
 ![ScreenShot](https://github.com/BankkRoll/Server.Inspector/blob/main/server%20inspector%201.png?raw=true)
 
-**Bot can be invited here -** http://serverinspector.xyz or http://invite.serverinspector.xyz
+**Bot is no longer active, new version can be found here** https://serverinspector.xyz 
 ____________________________________________________________________________
 
 * Bot can also be self hosted, below are the secret variables needed.
